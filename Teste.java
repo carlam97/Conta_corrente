@@ -8,6 +8,11 @@ public class Teste {
 
         System.out.println("Saldo atual: "+conta.getSaldo());
         System.out.println("Limite utilizado: "+conta.getLimite());
+        if(conta.getLimite()<0){
+            System.out.println("Cheque especial");      
+        } else{
+            System.out.println("Saldo azul");
+        }
         
         
     }
